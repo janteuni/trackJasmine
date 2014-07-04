@@ -1,0 +1,43 @@
+@import 'compass/reset';
+@import 'compass/css3';
+@import "compass/typography/vertical_rhythm";
+@import "color";
+@import "girl";
+
+$base-font-size: 16px;
+$base-line-height: 24px;
+
+@include establish-baseline;
+
+* {
+	@include box-sizing(border-box);
+}
+
+
+html, body {
+	height: 100%;
+	font-family: Roboto-Light;
+	background-color: $amber-500;
+}
+
+h1 {
+	@include adjust-font-size-to(64px);
+	@include margin-trailer(.5);
+	font-family: Roboto-Medium;
+}
+h2 {
+	@include adjust-font-size-to(24px);
+	font-family: Roboto-Light;
+	color: $brown-900;
+}
+
+hr {
+	border: 0;
+	height: 0;
+	margin: 0;
+}
+
+.flex {
+	display:flex;
+	flex-wrap: wrap
+}

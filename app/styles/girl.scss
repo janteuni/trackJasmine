@@ -1,0 +1,227 @@
+@import "color";
+@import "compass/css3";
+
+$width: 150px;
+$height: 350px;
+
+$back: $amber-500;
+
+.content {
+	padding-top: 50px;
+	width: 350px;
+	height: 500px;
+}
+
+.desc {
+	margin-left: 15px;
+	margin-top: 50px;
+	width: 400px;
+	height: 200px;
+	background-color: $amber-300;
+	border-bottom: 2px solid $amber-600;
+	@include border-radius(3%);
+	padding: 1em;
+}
+
+#girl *
+{
+	position: absolute;
+	box-sizing:content-box;
+	-moz-box-sizing:content-box;
+}
+
+#girl
+{
+	position: relative;
+	width: $width;
+	height: $height;
+	margin: 0 auto;
+}
+
+.head {
+	top: 10px;
+	left: $width/2 - 40;
+	height: 110px;
+	width: 75px;
+	@include border-radius(100%);
+	background-color: $amber-50;
+}
+
+.hair {
+	width: 41px;
+	height: 47px;
+	background-color: $brown;
+	top: 7px;
+	left: 70px;
+	@include border-radius(2% 81%);
+}
+
+.hair1 {
+	width: 42px;
+	height: 37px;
+	background-color: $brown;
+	top: 7px;
+	left: 34px;
+	@include border-radius(100% 0%);
+}
+
+.hair2 {
+	width: 28px;
+	height: 34px;
+	background-color: $brown;
+	top: 16px;
+	left: 57px;
+	@include border-radius(2% 100%);
+}
+
+.hair3 {
+	width: 37px;
+	height: 24px;
+	background-color: $brown;
+	top: 9px;
+	left: 32px;
+	@include border-radius(100% 0%);
+}
+
+.cache {
+	width: 28px;
+	height: 34px;
+	background-color: $amber-50;
+	top: 18px;
+	left: 72px;
+	@include border-radius(2% 73%);
+}
+
+.cache1 {
+	width: 37px;
+	height: 24px;
+	background-color: $back;
+	top: 13px;
+	left: 32px;
+	@include border-radius(100% 0%);
+}
+
+.eye1 {
+	width: 18px;
+	height: 18px;
+	background-color: white;
+	top: 49px;
+	left: 49px;
+	border-top: 2px solid $brown-700;
+	@include border-radius(100%);
+}
+
+.eye2 {
+	width: 18px;
+	height: 18px;
+	background-color: white;
+	top: 49px;
+	left: 77px;
+	border-top: 2px solid $brown-700;
+	@include border-radius(100%);
+}
+
+.pupille1 {
+	width: 5px;
+	height: 5px;
+	background-color: $brown-900;
+	top: 54px;
+	left: 52px;
+	@include border-radius(100%);
+}
+
+.pupille2 {
+	width: 5px;
+	height: 5px;
+	background-color: $brown-900;
+	top: 54px;
+	left: 80px;
+	@include border-radius(100%);
+}
+
+.neck {
+	width: 34px;
+	height: 50px;
+	background-color: $amber-50;
+	top: 111px;
+	left: 57px;
+}
+
+.cache2 {
+	width: 33px;
+	height: 73px;
+	background-color: $back;
+	top: 110px;
+	left: 31px;
+	@include border-radius(43% 46%);
+}
+
+.cache3 {
+	width: 33px;
+	height: 73px;
+	background-color: $back;
+	top: 112px;
+	left: 81px;
+	@include border-radius(43% 46%);
+}
+
+.tees {
+	width: 123px;
+	height: 180px;
+	top: 160px;
+	left: 12px;
+	background: -webkit-linear-gradient( top, $teal-500, $teal-100);
+	background:    -moz-linear-gradient( top, $teal-500, $teal-100);
+	background:     -ms-linear-gradient( top, $teal-500, $teal-100);
+	background:      -o-linear-gradient( top, $teal-500, $teal-100);
+	background:         linear-gradient( to top, $teal-500, $teal-100);
+	@include border-radius(43% 46%);
+}
+
+.col {
+	width: 36px;
+	height: 11px;
+	background-color: $amber-50;
+	top: 159px;
+	left: 54px;
+	@include border-radius(100% 75%);
+}
+
+.arm1 {
+	width: 19px;
+	height: 108px;
+	background-color: $amber-50;
+	top: 225px;
+	left: 12px;
+	@include border-radius(13% 4%);
+}
+
+.arm2 {
+	width: 19px;
+	height: 108px;
+	background-color: $amber-50;
+	top: 225px;
+	left: 116px;
+	@include border-radius(4% 18%);
+}
+
+.ghost {
+	width: 250px;
+	height: 100px;
+	background-color: $back;
+	top: 227px;
+	left: 12px;
+	background: -webkit-linear-gradient( top, $back, transparent);
+	background:    -moz-linear-gradient( top, $back, transparent);
+	background:     -ms-linear-gradient( top, $back, transparent);
+	background:      -o-linear-gradient( top, $back, transparent);
+	background:         linear-gradient( to top, $back, transparent);
+}
+
+.ghost2 {
+	width: 250px;
+	height: 100px;
+	background-color: $back;
+	top: 327px;
+	left: 12px;
+}
