@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e17ee4f1-1811-453c-8f40-63affa3a90a5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/flo.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/meri.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/balthi.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/main.scss" afterPath="$PROJECT_DIR$/app/styles/main.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/team.html" afterPath="$PROJECT_DIR$/app/views/team.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -42,8 +41,8 @@
       <file leaf-file-name="main.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/styles/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="3.75" vertical-offset="180" max-vertical-offset="1230">
-              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+            <state vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="1245">
+              <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -52,20 +51,21 @@
       <file leaf-file-name="team.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/team.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.62" vertical-offset="399" max-vertical-offset="1050">
-              <caret line="69" column="32" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="32" />
+            <state vertical-scroll-proportion="-1.6923077" vertical-offset="423" max-vertical-offset="1155">
+              <caret line="94" column="41" selection-start-line="94" selection-start-column="41" selection-end-line="94" selection-end-column="41" />
               <folding>
-                <element signature="tag#div#0;tag#div#0" expanded="false" />
+                <element signature="tag#div#1;tag#div#0" expanded="false" />
+                <element signature="tag#div#2;tag#div#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="flo.scss" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/styles/flo.scss">
+      <file leaf-file-name="balthi.scss" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/styles/balthi.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.3764906" vertical-offset="0" max-vertical-offset="3855">
-              <caret line="93" column="32" selection-start-line="93" selection-start-column="32" selection-end-line="93" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.5144804" vertical-offset="568" max-vertical-offset="4965">
+              <caret line="58" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -93,9 +93,10 @@
         <option value="$PROJECT_DIR$/bower.json" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/styles/meri.scss" />
+        <option value="$PROJECT_DIR$/app/styles/flo.scss" />
         <option value="$PROJECT_DIR$/app/styles/main.scss" />
         <option value="$PROJECT_DIR$/app/views/team.html" />
-        <option value="$PROJECT_DIR$/app/styles/flo.scss" />
+        <option value="$PROJECT_DIR$/app/styles/balthi.scss" />
       </list>
     </option>
   </component>
@@ -503,28 +504,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/flo.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.3764906" vertical-offset="0" max-vertical-offset="3855">
+          <caret line="93" column="32" selection-start-line="93" selection-start-column="32" selection-end-line="93" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.75" vertical-offset="180" max-vertical-offset="1230">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        <state vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="1245">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/team.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.62" vertical-offset="399" max-vertical-offset="1050">
-          <caret line="69" column="32" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="32" />
+        <state vertical-scroll-proportion="-1.6923077" vertical-offset="423" max-vertical-offset="1155">
+          <caret line="94" column="41" selection-start-line="94" selection-start-column="41" selection-end-line="94" selection-end-column="41" />
           <folding>
-            <element signature="tag#div#0;tag#div#0" expanded="false" />
+            <element signature="tag#div#1;tag#div#0" expanded="false" />
+            <element signature="tag#div#2;tag#div#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/flo.scss">
+    <entry file="file://$PROJECT_DIR$/app/styles/balthi.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.3764906" vertical-offset="0" max-vertical-offset="3855">
-          <caret line="93" column="32" selection-start-line="93" selection-start-column="32" selection-end-line="93" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.5144804" vertical-offset="568" max-vertical-offset="4965">
+          <caret line="58" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
           <folding />
         </state>
       </provider>

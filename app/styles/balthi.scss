@@ -1,0 +1,326 @@
+@import "color";
+@import "compass/css3";
+
+$width: 150px;
+$height: 350px;
+
+$back: $amber-500;
+$skin: $amber-50;
+
+#balthi *
+{
+	position: absolute;
+	box-sizing:content-box;
+	-moz-box-sizing:content-box;
+}
+
+#balthi
+{
+	position: relative;
+	width: $width;
+	height: $height;
+	margin: 0 auto;
+}
+
+.head-balthi {
+	top: 10px;
+	left: $width/2 - 40;
+	height: 110px;
+	width: 75px;
+	@include border-radius(100%);
+	background-color: $skin;
+}
+
+.hair-balthi {
+	width: 46px;
+	height: 33px;
+	background-color: $brown-500;
+	top: 8px;
+	left: 65px;
+	@include border-radius(2% 100%);
+}
+
+.hair-balthi2 {
+	width: 35px;
+	height: 33px;
+	background-color: $brown-500;
+	top: 8px;
+	left: 35px;
+	@include border-radius(100% 1%);
+}
+
+.hair-balthi2 {
+	width: 35px;
+	height: 33px;
+	background-color: $brown-500;
+	top: 8px;
+	left: 35px;
+	@include border-radius(100% 1%);
+}
+
+.hair-balthi3 {
+	width: 16px;
+	height: 27px;
+	background-color: $brown-500;
+	top: 13px;
+	left: 66px;
+	@include border-radius(13% 100%);
+}
+
+.cache4-balthi {
+	width: 16px;
+	height: 27px;
+	background-color: $skin;
+	top: 22px;
+	left: 75px;
+	@include border-radius(13% 100%);
+}
+
+.hair-balthi4 {
+	width: 16px;
+	height: 27px;
+	background-color: $brown-500;
+	top: 16px;
+	left: 75px;
+	@include border-radius(13% 100%);
+}
+
+.cache5-balthi {
+	width: 16px;
+	height: 27px;
+	background-color: $skin;
+	top: 20px;
+	left: 81px;
+	@include border-radius(13% 100%);
+}
+
+.hair-balthi5 {
+	width: 19px;
+	height: 27px;
+	background-color: $brown-500;
+	top: 19px;
+	left: 83px;
+	@include border-radius(39% 100%);
+}
+
+.cache6-balthi {
+	width: 14px;
+	height: 17px;
+	background-color: $skin;
+	top: 26px;
+	left: 89px;
+	@include border-radius(39% 100%);
+}
+
+.hair-balthi6 {
+	width: 19px;
+	height: 27px;
+	background-color: $brown-500;
+	top: 9px;
+	left: 96px;
+	@include border-radius(42% 100%);
+}
+
+.cache7-balthi {
+	width: 21px;
+	height: 27px;
+	background-color: $back;
+	top: 2px;
+	left: 95px;
+	@include border-radius(42% 100%);
+}
+
+.hair-balthi7 {
+	width: 19px;
+	height: 27px;
+	background-color: $brown-500;
+	top: 22px;
+	left: 96px;
+	@include border-radius(42% 100%);
+}
+
+.cache8-balthi {
+	width: 21px;
+	height: 27px;
+	background-color: $back;
+	top: 15px;
+	left: 98px;
+	@include border-radius(86% 100%);
+}
+
+.hair-balthi8 {
+	width: 19px;
+	height: 27px;
+	background-color: $brown-500;
+	top: 28px;
+	left: 96px;
+	@include border-radius(42% 100%);
+}
+
+.cache9-balthi {
+	width: 21px;
+	height: 27px;
+	background-color: $back;
+	top: 24px;
+	left: 105px;
+	@include border-radius(86% 100%);
+}
+
+.eye1-balthi {
+	width: 18px;
+	height: 18px;
+	background-color: white;
+	top: 49px;
+	left: 49px;
+	border-top: 2px solid $brown-500;
+	@include border-radius(100%);
+}
+
+.eye2-balthi {
+	width: 18px;
+	height: 18px;
+	background-color: white;
+	top: 49px;
+	left: 77px;
+	border-top: 2px solid $brown-500;
+	@include border-radius(100%);
+}
+
+.pupille1-balthi {
+	width: 5px;
+	height: 5px;
+	background-color: $brown-900;
+	top: 54px;
+	left: 52px;
+	@include border-radius(100%);
+	-webkit-animation: mymove 6000ms infinite;
+	animation: mymove 6000ms infinite;
+}
+
+.pupille2-balthi {
+	width: 5px;
+	height: 5px;
+	background-color: $brown-900;
+	top: 54px;
+	left: 80px;
+	@include border-radius(100%);
+	-webkit-animation: mymove2 6000ms infinite;
+	animation: mymove2 6000ms infinite;
+}
+
+@-webkit-keyframes mymove
+{
+	0%   {	left: 52px;}
+	20% {	left: 60px;}
+	80% {	left: 60px;}
+	100% { left: 52px}
+}
+
+@keyframes mymove
+{
+	0%   {left: 52px;}
+	20%  {left: 60px;}
+	80%  {left: 60px;}
+}
+
+@-webkit-keyframes mymove2
+{
+	0%   {	left: 80px;}
+	20% {	left: 88px;}
+	80% {	left: 88px;}
+	100% { left: 80px}
+}
+
+@keyframes mymove2
+{
+	0%   {left: 80px;}
+	20%  {left: 88px;}
+	80%  {left: 88px;}
+}
+
+.neck-balthi {
+	width: 34px;
+	height: 50px;
+	background-color: $skin;
+	top: 111px;
+	left: 57px;
+}
+
+.cache2-balthi {
+	width: 33px;
+	height: 73px;
+	background-color: $back;
+	top: 110px;
+	left: 31px;
+	@include border-radius(43% 46%);
+}
+
+.cache3-balthi {
+	width: 33px;
+	height: 73px;
+	background-color: $back;
+	top: 112px;
+	left: 81px;
+	@include border-radius(43% 46%);
+}
+
+.tees-balthi {
+	width: 123px;
+	height: 180px;
+	top: 148px;
+	left: 12px;
+	background-color: $grey-500;
+	@include border-radius(43% 46%);
+}
+
+.col-balthi {
+	width: 36px;
+	height: 11px;
+	background-color: $skin;
+	top: 147px;
+	left: 54px;
+	@include border-radius(100% 75%);
+}
+
+.arm1-balthi{
+	width: 19px;
+	height: 108px;
+	background-color: $grey;
+	border-right: 1px solid $grey-600;
+	@include box-shadow($grey-600 1px 1px 2px);
+	top: 225px;
+	left: 12px;
+	@include border-radius(13% 4%);
+}
+
+.arm2-balthi {
+	width: 19px;
+	height: 108px;
+	background-color: $grey;
+	border-left: 1px solid $grey-600;
+	@include box-shadow($grey-600 -1px 2px 3px);
+	top: 225px;
+	left: 116px;
+	@include border-radius(4% 18%);
+}
+
+.ghost-balthi {
+	width: 250px;
+	height: 100px;
+	background-color: $back;
+	top: 217px;
+	left: 12px;
+	background: -webkit-linear-gradient( top, $back, transparent);
+	background:    -moz-linear-gradient( top, $back, transparent);
+	background:     -ms-linear-gradient( top, $back, transparent);
+	background:      -o-linear-gradient( top, $back, transparent);
+	background:         linear-gradient( to top, $back, transparent);
+}
+
+.ghost2-balthi {
+	width: 250px;
+	height: 20px;
+	background-color: $back;
+	top: 317px;
+	left: 12px;
+}
