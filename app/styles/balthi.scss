@@ -49,12 +49,57 @@ $skin: $amber-50;
 	@include border-radius(100% 1%);
 }
 
-.hair-balthi2 {
-	width: 35px;
-	height: 33px;
+.hair-balthi12 {
+	width: 26px;
+	height: 26px;
 	background-color: $brown-500;
-	top: 8px;
-	left: 35px;
+	top: 40px;
+	left: 28px;
+	@include border-radius(100%);
+}
+
+.cache11-balthi {
+	width: 12px;
+	height: 14px;
+	background-color: $back;
+	top: 40px;
+	left: 27px;
+	@include border-radius(100%);
+}
+
+.hair-balthi11 {
+	width: 26px;
+	height: 26px;
+	background-color: $brown-500;
+	top: 30px;
+	left: 28px;
+	@include border-radius(100%);
+}
+
+.cache12-balthi {
+	width: 12px;
+	height: 14px;
+	background-color: $back;
+	top: 26px;
+	left: 25px;
+	@include border-radius(100%);
+}
+
+.hair-balthi10 {
+	width: 35px;
+	height: 24px;
+	background-color: $brown-500;
+	top: 9px;
+	left: 30px;
+	@include border-radius(100% 1%);
+}
+
+.cache10-balthi {
+	width: 35px;
+	height: 24px;
+	background-color: $back;
+	top: 14px;
+	left: 30px;
 	@include border-radius(100% 1%);
 }
 
@@ -167,23 +212,29 @@ $skin: $amber-50;
 }
 
 .eye1-balthi {
-	width: 18px;
-	height: 18px;
+	width: 21px;
+	height: 12px;
 	background-color: white;
 	top: 49px;
 	left: 49px;
-	border-top: 2px solid $brown-500;
-	@include border-radius(100%);
+	border: 1px solid $grey-900;
 }
 
 .eye2-balthi {
-	width: 18px;
-	height: 18px;
+	width: 21px;
+	height: 12px;
 	background-color: white;
 	top: 49px;
 	left: 77px;
-	border-top: 2px solid $brown-500;
-	@include border-radius(100%);
+	border: 1px solid $grey-900;
+}
+
+.branch {
+	width: 6px;
+	height: 2px;
+	background-color: $grey-900;
+	top: 54px;
+	left: 71px;
 }
 
 .pupille1-balthi {
@@ -323,4 +374,14 @@ $skin: $amber-50;
 	background-color: $back;
 	top: 317px;
 	left: 12px;
+}
+
+.grunt {
+	color: $grey-900;
+	font-family: Arvo;
+	font-weight: bold;
+	letter-spacing:-2px;
+	font-size: 1.3em;
+	top: 189px;
+	left: 43px;
 }
