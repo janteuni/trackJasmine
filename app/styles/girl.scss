@@ -6,21 +6,43 @@ $height: 350px;
 
 $back: $amber-500;
 
-.content {
-	padding-top: 50px;
+.content{
 	width: 350px;
-	height: 500px;
 }
 
-.desc {
-	margin-left: 15px;
-	margin-top: 50px;
-	width: 400px;
-	height: 200px;
+.desc2 {
+	position: absolute;
+	width: 135px;
+	height: 124px;
 	background-color: $amber-300;
 	border-bottom: 2px solid $amber-600;
-	@include border-radius(3%);
-	padding: 1em;
+	@include border-radius(67% 0%);
+	padding: 2.2em;
+	left: 114px;
+}
+
+.desc1 {
+	position:absolute;
+	width: 144px;
+	height: 117px;
+	background-color: $amber-300;
+	border-bottom: 2px solid $amber-600;
+	@include border-radius(67% 0%);
+	left: 107px;
+}
+.desc {
+	position:relative;
+	width: 151px;
+	height: 110px;
+	background-color: $amber-300;
+	border-bottom: 2px solid $amber-600;
+	@include border-radius(67% 0%);
+	margin-left: 100px;
+	padding-top: 1.2em;
+	padding-left: 1.5em;
+	color: $brown-700;
+	font-family: 'Courgette';
+	font-size: 1.5em;
 }
 
 #girl *
@@ -254,7 +276,7 @@ $back: $amber-500;
 
 .ghost2 {
 	width: 250px;
-	height: 100px;
+	height: 20px;
 	background-color: $back;
 	top: 327px;
 	left: 12px;

@@ -13,7 +13,6 @@ $base-line-height: 24px;
 	@include box-sizing(border-box);
 }
 
-
 html, body {
 	height: 100%;
 	font-family: Roboto-Light;
@@ -25,9 +24,10 @@ h1 {
 	@include margin-trailer(.5);
 	font-family: Roboto-Medium;
 }
+
 h2 {
 	@include adjust-font-size-to(24px);
-	font-family: Roboto-Light;
+	font-family: Roboto-Regular;
 	color: $brown-900;
 }
 
@@ -38,6 +38,33 @@ hr {
 }
 
 .flex {
-	display:flex;
+	display: flex;
 	flex-wrap: wrap
+}
+
+.main {
+	padding-top: 30px;
+	nav {
+		width: 400px;
+		border-top: $amber-800;
+	}
+	a {
+		text-decoration: none;
+		color: $amber-50;
+		:hover {
+			text-decoration: none;
+			background-color: $teal-400;
+			border-top: 3px solid $teal-800;
+			border-bottom: none;
+		}
+	}
+	.elem {
+		width: 50px;
+		height: 50px;
+		padding: 1em;
+		text-align: center;
+		@include border-radius(100%);
+		background-color: $teal-400;
+		border-bottom: 2px solid $teal-800;
+	}
 }
