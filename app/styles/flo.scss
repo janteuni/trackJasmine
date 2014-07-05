@@ -1,0 +1,252 @@
+@import "color";
+@import "compass/css3";
+
+$width: 150px;
+$height: 350px;
+
+$back: $amber-500;
+$skin: $amber-50;
+
+#flo *
+{
+	position: absolute;
+	box-sizing:content-box;
+	-moz-box-sizing:content-box;
+}
+
+#flo
+{
+	position: relative;
+	width: $width;
+	height: $height;
+	margin: 0 auto;
+}
+
+.head-flo {
+	top: 10px;
+	left: $width/2 - 40;
+	height: 110px;
+	width: 75px;
+	@include border-radius(100%);
+	background-color: $skin;
+}
+
+.big-hair {
+	width: 107px;
+	height: 204px;
+	background-color: $brown-500;
+	top: 8px;
+	left: 20px;
+	@include border-radius(100%);
+}
+
+.hair-flo {
+	width: 33px;
+	height: 51px;
+	background-color: $brown-500;
+	top: 8px;
+	left: 78px;
+	@include border-radius(2% 100%);
+}
+
+.hair-flo2 {
+	width: 44px;
+	height: 51px;
+	background-color: $brown-500;
+	top: 8px;
+	left: 34px;
+	@include border-radius(100% 1%);
+}
+
+.hair-flo3 {
+	width: 49px;
+	height: 83px;
+	background-color: $brown-500;
+	top: 10px;
+	left: 81px;
+	@include border-radius(0% 100%);
+}
+
+.hair-flo4 {
+	width: 31px;
+	height: 83px;
+	background-color: $brown-500;
+	top: 119px;
+	left: 21px;
+	@include border-radius(0% 100%);
+}
+
+.cache4-flo {
+	width: 49px;
+	height: 83px;
+	background-color: $back;
+	top: 26px;
+	left: 84px;
+	@include border-radius(0% 100%);
+}
+
+.cache5-flo {
+	width: 20px;
+	height: 58px;
+	background-color: $cyan-400;
+	top: 152px;
+	left: 36px;
+	@include border-radius(63% 8%);
+}
+
+.eye1-flo {
+	width: 18px;
+	height: 18px;
+	background-color: white;
+	top: 49px;
+	left: 49px;
+	border-top: 2px solid $brown-500;
+	@include border-radius(100%);
+}
+
+.eye2-flo {
+	width: 18px;
+	height: 18px;
+	background-color: white;
+	top: 49px;
+	left: 77px;
+	border-top: 2px solid $brown-500;
+	@include border-radius(100%);
+}
+
+.pupille1-flo {
+	width: 3px;
+	height: 3px;
+	background-color: $brown-900;
+	top: 54px;
+	left: 52px;
+	@include border-radius(100%);
+	border: 2px solid $cyan-800;
+	-webkit-animation: mymove 6000ms infinite;
+	animation: mymove 6000ms infinite;
+}
+
+.pupille2-flo {
+	width: 3px;
+	height: 3px;
+	background-color: $brown-900;
+	top: 54px;
+	left: 80px;
+	border: 2px solid $cyan-800;
+	@include border-radius(100%);
+	-webkit-animation: mymove2 6000ms infinite;
+	animation: mymove2 6000ms infinite;
+}
+
+@-webkit-keyframes mymove
+{
+	0%   {	left: 52px;}
+	20% {	left: 60px;}
+	80% {	left: 60px;}
+	100% { left: 52px}
+}
+
+@keyframes mymove
+{
+	0%   {left: 52px;}
+	20%  {left: 60px;}
+	80%  {left: 60px;}
+}
+
+@-webkit-keyframes mymove2
+{
+	0%   {	left: 80px;}
+	20% {	left: 88px;}
+	80% {	left: 88px;}
+	100% { left: 80px}
+}
+
+@keyframes mymove2
+{
+	0%   {left: 80px;}
+	20%  {left: 88px;}
+	80%  {left: 88px;}
+}
+
+.neck-flo {
+	width: 34px;
+	height: 50px;
+	background-color: $skin;
+	top: 111px;
+	left: 57px;
+}
+
+.cache2-flo {
+	width: 33px;
+	height: 73px;
+	background-color: $brown-500;
+	top: 110px;
+	left: 31px;
+	@include border-radius(43% 46%);
+}
+
+.cache3-flo {
+	width: 33px;
+	height: 73px;
+	background-color: $brown-500;
+	top: 112px;
+	left: 81px;
+	@include border-radius(43% 46%);
+}
+
+.tees-flo {
+	width: 123px;
+	height: 180px;
+	top: 148px;
+	left: 12px;
+	background-color: $cyan-400;
+	@include border-radius(43% 46%);
+}
+
+.col-flo {
+	width: 36px;
+	height: 11px;
+	background-color: $skin;
+	top: 147px;
+	left: 54px;
+	@include border-radius(100% 75%);
+}
+
+.arm1-flo{
+	width: 19px;
+	height: 108px;
+	background-color: $skin;
+	top: 225px;
+	left: 12px;
+	@include border-radius(13% 4%);
+}
+
+.arm2-flo {
+	width: 19px;
+	height: 108px;
+	background-color: $skin;
+	top: 225px;
+	left: 116px;
+	@include border-radius(4% 18%);
+}
+
+.ghost-flo {
+	width: 250px;
+	height: 100px;
+	background-color: $back;
+	top: 217px;
+	left: 12px;
+	background: -webkit-linear-gradient( top, $back, transparent);
+	background:    -moz-linear-gradient( top, $back, transparent);
+	background:     -ms-linear-gradient( top, $back, transparent);
+	background:      -o-linear-gradient( top, $back, transparent);
+	background:         linear-gradient( to top, $back, transparent);
+}
+
+.ghost2-flo {
+	width: 250px;
+	height: 20px;
+	background-color: $back;
+	top: 317px;
+	left: 12px;
+}
