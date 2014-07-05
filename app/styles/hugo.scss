@@ -1,0 +1,458 @@
+@import "color";
+@import "compass/css3";
+
+$width: 150px;
+$height: 350px;
+
+$back: $amber-500;
+$skin: $amber-50;
+
+#hugo *
+{
+	position: absolute;
+	box-sizing:content-box;
+	-moz-box-sizing:content-box;
+}
+
+#hugo
+{
+	position: relative;
+	width: $width;
+	height: $height;
+	margin: 0 auto;
+}
+
+.head-hugo {
+	top: 10px;
+	left: $width/2 - 40;
+	height: 110px;
+	width: 75px;
+	@include border-radius(100%);
+	background-color: $skin;
+}
+
+.hair-hugo {
+	width: 46px;
+	height: 33px;
+	background-color: $brown-500;
+	top: 8px;
+	left: 65px;
+	@include border-radius(2% 100%);
+}
+
+.hair-hugo2 {
+	width: 35px;
+	height: 33px;
+	background-color: $brown-500;
+	top: 8px;
+	left: 35px;
+	@include border-radius(100% 1%);
+}
+
+.boule1 {
+	width: 21px;
+	height: 19px;
+	background-color: $brown-500;
+	top: 17px;
+	left: 28px;
+	@include border-radius(100%);
+}
+
+.c1 {
+	width: 21px;
+	height: 19px;
+	background-color: $back;
+	top: 7px;
+	left: 24px;
+	@include border-radius(100%);
+}
+
+.boule2 {
+	width: 35px;
+	height: 19px;
+	background-color: $brown-500;
+	top: 8px;
+	left: 31px;
+	@include border-radius(100%);
+}
+
+.c2 {
+	width: 35px;
+	height: 19px;
+	background-color: $back;
+	top: -2px;
+	left: 29px;
+	@include border-radius(100%);
+}
+
+.boule3 {
+	width: 19px;
+	height: 19px;
+	background-color: $brown-500;
+	top: 3px;
+	left: 44px;
+	@include border-radius(100%);
+}
+
+.c3 {
+	width: 19px;
+	height: 15px;
+	background-color: $back;
+	top: 7px;
+	left: 53px;
+	@include border-radius(100%);
+}
+
+
+.boule3b {
+	width: 24px;
+	height: 21px;
+	background-color: $brown-500;
+	top: 1px;
+	left: 37px;
+	@include border-radius(100%);
+}
+
+.c3b {
+	width: 22px;
+	height: 15px;
+	background-color: $back;
+	top: 2px;
+	left: 41px;
+	@include border-radius(100%);
+}
+
+.boule4 {
+	width: 19px;
+	height: 19px;
+	background-color: $brown-500;
+	top: 3px;
+	left: 63px;
+	@include border-radius(100%);
+}
+
+.c4 {
+	width: 19px;
+	height: 15px;
+	background-color: $back;
+	top: 3px;
+	left: 74px;
+	@include border-radius(100%);
+}
+
+.boule5 {
+	width: 19px;
+	height: 19px;
+	background-color: $brown-500;
+	top: 5px;
+	left: 73px;
+	@include border-radius(100%);
+}
+
+.c5 {
+	width: 19px;
+	height: 15px;
+	background-color: $back;
+	top: 10px;
+	left: 76px;
+	@include border-radius(100%);
+}
+
+.boule6 {
+	width: 19px;
+	height: 19px;
+	background-color: $brown-500;
+	top: 1px;
+	left: 77px;
+	@include border-radius(100%);
+}
+
+.c6 {
+	width: 19px;
+	height: 15px;
+	background-color: $back;
+	top: 1px;
+	left: 82px;
+	@include border-radius(100%);
+}
+
+.boule7 {
+	width: 19px;
+	height: 27px;
+	background-color: $brown-500;
+	top: 11px;
+	left: 88px;
+	@include border-radius(100%);
+}
+
+.c7 {
+	width: 19px;
+	height: 15px;
+	background-color: $back;
+	top: 1px;
+	left: 82px;
+	@include border-radius(100%);
+}
+
+.boule8 {
+	width: 19px;
+	height: 20px;
+	background-color: $brown-500;
+	top: 19px;
+	left: 94px;
+	@include border-radius(100%);
+}
+
+.c8 {
+	width: 19px;
+	height: 15px;
+	background-color: $back;
+	top: 22px;
+	left: 92px;
+	@include border-radius(100%);
+}
+
+.boule9 {
+	width: 19px;
+	height: 20px;
+	background-color: $brown-500;
+	top: 22px;
+	left: 100px;
+	@include border-radius(100%);
+}
+
+.c9 {
+	width: 19px;
+	height: 15px;
+	background-color: $back;
+	top: 26px;
+	left: 99px;
+	@include border-radius(100%);
+}
+
+.boule10 {
+	width: 19px;
+	height: 20px;
+	background-color: $brown-500;
+	top: 27px;
+	left: 106px;
+	@include border-radius(100%);
+}
+
+.c10 {
+	width: 19px;
+	height: 15px;
+	background-color: $back;
+	top: 34px;
+	left: 104px;
+	@include border-radius(100%);
+}
+
+.boule11 {
+	width: 19px;
+	height: 20px;
+	background-color: $brown-500;
+	top: 34px;
+	left: 99px;
+	@include border-radius(100%);
+}
+
+.c11 {
+	width: 19px;
+	height: 15px;
+	background-color: $back;
+	top: 44px;
+	left: 97px;
+	@include border-radius(100%);
+}
+
+.boule13 {
+	width: 19px;
+	height: 20px;
+	background-color: $brown-500;
+	top: 34px;
+	left: 25px;
+	@include border-radius(100%);
+}
+
+.c13 {
+	width: 19px;
+	height: 15px;
+	background-color: $back;
+	top: 44px;
+	left: 31px;
+	@include border-radius(100%);
+}
+
+.boule14 {
+	width: 19px;
+	height: 20px;
+	background-color: $brown-500;
+	top: 45px;
+	left: 31px;
+	@include border-radius(100%);
+}
+
+.boule12 {
+	width: 19px;
+	height: 20px;
+	background-color: $brown-500;
+	top: 42px;
+	left: 95px;
+	@include border-radius(100%);
+}
+
+
+.eye1-hugo {
+	width: 18px;
+	height: 18px;
+	background-color: white;
+	top: 49px;
+	left: 49px;
+	border-top: 2px solid $brown-700;
+	@include border-radius(100%);
+}
+
+.eye2-hugo {
+	width: 18px;
+	height: 18px;
+	background-color: white;
+	top: 49px;
+	left: 77px;
+	border-top: 2px solid $brown-700;
+	@include border-radius(100%);
+}
+
+@-webkit-keyframes mymove
+{
+	0%   {	left: 52px;}
+	20% {	left: 60px;}
+	80% {	left: 60px;}
+	100% { left: 52px}
+}
+
+@keyframes mymove
+{
+	0%   {left: 52px;}
+	20%  {left: 60px;}
+	80%  {left: 60px;}
+}
+
+@-webkit-keyframes mymove2
+{
+	0%   {	left: 80px;}
+	20% {	left: 88px;}
+	80% {	left: 88px;}
+	100% { left: 80px}
+}
+
+@keyframes mymove2
+{
+	0%   {left: 80px;}
+	20%  {left: 88px;}
+	80%  {left: 88px;}
+}
+
+.neck-hugo {
+	width: 34px;
+	height: 50px;
+	background-color: $skin;
+	top: 111px;
+	left: 57px;
+}
+
+.cache2-hugo {
+	width: 33px;
+	height: 73px;
+	background-color: $back;
+	top: 110px;
+	left: 31px;
+	@include border-radius(43% 46%);
+}
+
+.cache3-hugo {
+	width: 33px;
+	height: 73px;
+	background-color: $back;
+	top: 112px;
+	left: 81px;
+	@include border-radius(43% 46%);
+}
+
+.tees-hugo {
+	width: 123px;
+	height: 180px;
+	top: 148px;
+	left: 12px;
+	background-color: $grey-800;
+	@include border-radius(43% 46%);
+}
+
+.col-hugo {
+	width: 36px;
+	height: 11px;
+	background-color: $skin;
+	top: 147px;
+	left: 54px;
+	@include border-radius(100% 75%);
+}
+
+.arm1-hugo{
+	width: 19px;
+	height: 108px;
+	background-color: $grey-800;
+	border-right: 1px solid $grey-600;
+	@include box-shadow($grey-600 1px 1px 2px);
+	top: 225px;
+	left: 12px;
+	@include border-radius(13% 4%);
+}
+
+.arm2-hugo {
+	width: 19px;
+	height: 108px;
+	background-color: $grey-800;
+	border-left: 1px solid $grey-600;
+	@include box-shadow($grey-600 -1px 2px 3px);
+	top: 225px;
+	left: 116px;
+	@include border-radius(4% 18%);
+}
+
+.ghost-hugo {
+	width: 250px;
+	height: 100px;
+	background-color: $back;
+	top: 217px;
+	left: 12px;
+	background: -webkit-linear-gradient( top, $back, transparent);
+	background:    -moz-linear-gradient( top, $back, transparent);
+	background:     -ms-linear-gradient( top, $back, transparent);
+	background:      -o-linear-gradient( top, $back, transparent);
+	background:         linear-gradient( to top, $back, transparent);
+}
+
+.ghost2-hugo {
+	width: 250px;
+	height: 20px;
+	background-color: $back;
+	top: 317px;
+	left: 12px;
+}
+
+.bast {
+	color: white;
+	font-size: 1.5em;
+	font-family: Condiment;
+	top: 196px;
+	left: 40px;
+}
+
+.trait {
+	width: 51px;
+	height: 15px;
+	top: 240px;
+	left: 61px;
+	border-top: 3px solid white;
+	@include border-radius(43% 46%);
+}

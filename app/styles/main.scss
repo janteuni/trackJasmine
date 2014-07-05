@@ -6,6 +6,7 @@
 @import "meri";
 @import "flo";
 @import "balthi";
+@import "hugo";
 
 $base-font-size: 16px;
 $base-line-height: 24px;
@@ -23,14 +24,15 @@ html, body {
 }
 
 h1 {
-	@include adjust-font-size-to(64px);
+	@include adjust-font-size-to(48px);
 	@include margin-trailer(.5);
-	font-family: Roboto-Medium;
+	color: $brown-900;
+	font-family: Roboto-Light;
 }
 
 h2 {
 	@include adjust-font-size-to(24px);
-	font-family: Roboto-Regular;
+	font-family: Roboto-Light;
 	color: $brown-900;
 }
 
@@ -73,5 +75,22 @@ hr {
 }
 
 .team {
+	width: 900px;
+	margin: 0 auto;
 	margin-top: 20px;
+}
+
+.name {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.team-name {
+	width: 240px;
+	height: 70px;
+	padding: 10px;
+	float: right;
+	text-align: right;
+	background-color: $amber-200;
+	@include box-shadow($amber-700 2px 2px 1px);
 }
