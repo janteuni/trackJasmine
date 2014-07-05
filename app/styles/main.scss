@@ -36,6 +36,10 @@ h2 {
 	color: $brown-900;
 }
 
+a {
+	text-decoration: none;
+}
+
 hr {
 	border: 0;
 	height: 0;
@@ -45,6 +49,19 @@ hr {
 .flex {
 	display: flex;
 	flex-wrap: wrap
+}
+
+.home {
+	width: 50px;
+	height: 50px;
+	padding: 10px;
+	@include border-radius(100%);
+	background-color: $teal-400;
+	color: $amber-50;
+	font-size: 1.8em;
+	border-bottom: 3px solid $teal-800;
+	margin-top: 30px;
+	margin-left: 30px;
 }
 
 .main {
@@ -75,22 +92,24 @@ hr {
 }
 
 .team {
-	width: 900px;
+	max-width: 900px;
 	margin: 0 auto;
 	margin-top: 20px;
-}
-
-.name {
-	width: 900px;
-	margin: 0 auto;
 }
 
 .team-name {
 	width: 240px;
 	height: 70px;
 	padding: 10px;
-	float: right;
 	text-align: right;
+	float: right;
 	background-color: $amber-200;
 	@include box-shadow($amber-700 2px 2px 1px);
+}
+
+.home-link {
+	:hover {
+		border-top: 3px solid $teal-800;
+		border-bottom: none;
+	}
 }
