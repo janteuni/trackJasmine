@@ -7,6 +7,7 @@
 @import "flo";
 @import "balthi";
 @import "hugo";
+@import "avatar";
 
 $base-font-size: 16px;
 $base-line-height: 24px;
@@ -46,9 +47,18 @@ hr {
 	margin: 0;
 }
 
+button {
+	outline: none;
+	border: none;
+}
+
 .flex {
 	display: flex;
 	flex-wrap: wrap
+}
+
+.start {
+	align-items: flex-start;
 }
 
 .home {
@@ -84,6 +94,7 @@ hr {
 		width: 50px;
 		height: 50px;
 		padding: 1em;
+		margin-right: 1em;
 		text-align: center;
 		@include border-radius(100%);
 		background-color: $teal-400;
