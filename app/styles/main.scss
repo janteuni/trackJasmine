@@ -76,8 +76,11 @@ button {
 
 .main {
 	padding-top: 30px;
+	section {
+		margin-bottom: 2em;
+	}
 	nav {
-		width: 400px;
+		max-width: 400px;
 		border-top: $amber-800;
 	}
 	a {
@@ -94,11 +97,15 @@ button {
 		width: 50px;
 		height: 50px;
 		padding: 1em;
-		margin-right: 1em;
+		margin-left: 1em;
+		margin-bottom: 1em;
 		text-align: center;
 		@include border-radius(100%);
 		background-color: $teal-400;
 		border-bottom: 2px solid $teal-800;
+		@media screen and (max-width: 481px) {
+			align-items: flex-start;
+		}
 	}
 }
 
