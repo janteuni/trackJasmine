@@ -68,30 +68,30 @@ $skin: #CD7F32;
 }
 
 .hair-meri3 {
-	width: 22px;
-	height: 27px;
+	width: 37px;
+	height: 36px;
 	background-color: $brown-900;
-	top: 9px;
-	left: 65px;
+	top: 6px;
+	left: 52px;
+	@include border-radius(100% 86%);
+}
+
+.cache-m1 {
+	width: 20px;
+	height: 30px;
+	background-color: $skin;
+	top: 24px;
+	left: 51px;
+	@include border-radius(3% 102%);
+}
+
+.cache-m2 {
+	width: 18px;
+	height: 30px;
+	background-color: $skin;
+	top: 25px;
+	left: 72px;
 	@include border-radius(100% 1%);
-}
-
-.hair-meri4 {
-	width: 15px;
-	height: 17px;
-	background-color:$brown-900;
-	top: 19px;
-	left: 55px;
-	@include border-radius(1% 75%);
-}
-
-.cache-h3 {
-	width: 15px;
-	height: 15px;
-	background-color:$brown-900;
-	top: 11px;
-	left: 55px;
-	@include border-radius(100%);
 }
 
 .eye1-meri {
