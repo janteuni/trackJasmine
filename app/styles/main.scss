@@ -109,6 +109,7 @@ button {
 }
 
 .team-name {
+	margin: 1em;
 	width: 240px;
 	height: 70px;
 	padding: 10px;
@@ -116,7 +117,15 @@ button {
 	float: right;
 	background-color: $amber-200;
 	@include box-shadow($amber-700 2px 2px 1px);
+	@media screen and (max-width: 750px) {
+		text-align: center;
+		float: none;
+		width: 90%;
+		margin: 5%;
+	}
 }
+
+
 
 .home-link {
 	:hover {
