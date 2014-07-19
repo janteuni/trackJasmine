@@ -6,3 +6,4 @@ app/.DS_Store
 app/styles/.DS_Store
 .sass-cache
 bower_components
+.idea/workspace.xml

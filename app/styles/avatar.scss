@@ -8,30 +8,69 @@ $height: 350px;
 
 .choice {
 	width: 300px;
-	height: 400px;
+	height: 100%;
 	padding: 1em;
 	background-color: $amber-200;
 }
 
 .btn-select {
-	width: 50px;
-	height: 50px;
+	width: 30px;
+	height: 30px;
 	@include border-radius(100%);
 	cursor: pointer;
 	margin: 5px;
 }
 
-/* Avatar Set */
+/* Hide-Show Menu */
 
-#avatar *
-{
-	position: absolute;
-	box-sizing:content-box;
-	-moz-box-sizing:content-box;
+.hide-show {
+	width: 300px;
 }
 
-#avatar
-{
+a.hide-show {
+	display: block;
+	width: auto;
+	min-width: 32px;
+	height: 32px;
+	background-repeat: no-repeat;
+	text-decoration: none;
+	background-position: center 0;
+	opacity: 0.3;
+	span {
+		font-size: 12px;
+		line-height: 32px;
+		text-align: center;
+		opacity: 0;
+		@include transition(all, 0.5s);
+	}
+}
+
+
+a.hide-show:hover {
+	background-position: 0 0;
+	opacity: 1;
+	span {
+		opacity: 1;
+	}
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	margin-top: 1px;
+	line-height: 14px;
+	vertical-align: text-top;
+}
+/* Avatar Set */
+
+#avatar * {
+	position: absolute;
+	box-sizing: content-box;
+	-moz-box-sizing: content-box;
+}
+
+#avatar {
 	position: relative;
 	width: $width;
 	height: $height;
