@@ -8,32 +8,52 @@ $height: 350px;
 
 .menu-generator {
 	margin: 30px;
-	width: 100px;
+	width: 200px;
 	padding: 10px;
 	border: 2px solid $amber-200;
-	a:hover {
-		background-position: 0 0;
-		opacity: 1;
-		outline: none;
+	li {
+		height: 40px;
+	}
+	a {
+		color: white;
+		display: block;
+		background-image: url(icomoon/droplet.svg);
+		background-repeat: no-repeat;
+		background-position: center 0;
+		text-decoration: none;
+		opacity: 0.3;
+		-webkit-transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+		-moz-transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+		-o-transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+		transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+		-webkit-transition-property: all;
+		-moz-transition-property: all;
+		-o-transition-property: all;
+		transition-property: all;
+		-webkit-transition-duration: 0.2s;
+		-moz-transition-duration: 0.2s;
+		-o-transition-duration: 0.2s;
+		transition-duration: 0.2s;
 		span {
-			opacity: 1;
+			display: block;
+			line-height: 40px;
+			color: white;
+			text-align: center;
+			opacity: 0;
+			-webkit-transition: 0.2s all;
+			-moz-transition: 0.2s all;
+			-o-transition: 0.2s all;
+			transition: 0.2s all;
 		}
 	}
-}
-
-.first {
-	color: white;
-	background-repeat: no-repeat;
-	background-position: center 0;
-	opacity: 0.3;
-	transition-property: all;
-	transition-duration: 0.2s;
-	transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
-}
-
-.second {
-	transition: 0.2s all;
-	opacity: 0;
+	a:hover {
+		background-position: 0 0;
+		opacity: 0.8;
+		outline: none;
+		span {
+			opacity: 0.8;
+		}
+	}
 }
 
 /* Background Color */
